@@ -493,6 +493,7 @@ t<-summary(slag_dv_model2_queen)
 ```
 
 ```{r}
+#hey
 #run a spatially-lagged regression model
 slag_dv_model2_knn4 <- lagsarlm(average_gcse_capped_point_scores_2014 ~ unauthorised_absence_in_all_schools_percent_2013 + 
                log(median_house_price_2014), 
